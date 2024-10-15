@@ -1,0 +1,39 @@
+Objevená rizika v smlouvě pomocí přesného shodování klíčových slov:
+==================================================
+Název rizika: pokuta
+Popis: Pokuty mohou být rizikovými prvky, pokud nejsou spravedlivě nastaveny.
+Váha: 3
+Typ detekce: Přesné shodování
+Paragraf: 7.2
+--------------------------------------------------
+Název rizika: pojištění
+Popis: Požadavek na sjednání pojištění může být zbytečný
+Váha: 2
+Typ detekce: Přesné shodování
+Paragraf: 8.1
+--------------------------------------------------
+
+Objevená rizika v smlouvě pomocí semantického vyhledávání:
+==================================================
+Otázka: Najděte zmínky o 'vypověď' v tomto textu.
+Odpověď: V textu se vyskytují zmínky o vypovědi v částech 5.3, 1.1, 1.5 a 5.4.
+--------------------------------------------------
+Otázka: Najděte zmínky o 'pokuta' v tomto textu.
+Odpověď: V textu se zmiňuje o pokutě ve výši 500 Kč za každý den prodlení s platbou nájemného a o pokutě ve výši 5000 Kč za každý den prodlení.
+--------------------------------------------------
+Otázka: Najděte zmínky o 'omezení práv' v tomto textu.
+Odpověď: There are mentions of 'omezení práv' in this text.
+--------------------------------------------------
+Otázka: Najděte zmínky o 'rozhodčí doložka' v tomto textu.
+Odpověď: V tomto textu jsou zmínky o 'rozhodčí doložka' v částech 1.5 a 9.3.
+--------------------------------------------------
+Otázka: Najděte zmínky o 'zpoplatnění údržby' v tomto textu.
+Odpověď: There is no mention of 'zpoplatnění údržby' in this text.
+--------------------------------------------------
+Otázka: Najděte zmínky o 'pojištění' v tomto textu.
+Odpověď: V textu se zmiňuje o jistotě, kterou musí nájemce uhradit pronajímatelům, a doporučení nájemci si zajistit pojištění souboru zařízení domácnosti a odpovědnosti za škody. Dále se zmiňuje o informování pronajímatele v případě vzniku pojistné události.
+--------------------------------------------------
+
+Celková váha rizik: 5
+Prahová hodnota: 20
+Doporučení: Doporučujeme dokument podepsat.
